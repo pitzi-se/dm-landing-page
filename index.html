@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Danderyds Mekaniska | Stålverkstad i Saltsjö-Boo</title>
+<meta name="description" content="Stålverkstad i Saltsjö-Boo sedan 1989. Vi tillverkar, svetsar och reparerar i stål, rostfritt och aluminium, från enstaka detaljer till återkommande serier.">
+<meta name="theme-color" content="#faf8f5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141412" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Danderyds Mekaniska | Stålverkstad i Saltsjö-Boo">
+<meta property="og:description" content="Stålverkstad i Saltsjö-Boo sedan 1989. Stål, rostfritt och aluminium, från enstaka detaljer till återkommande serier.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sv_SE">
+<meta property="og:url" content="https://danderydsmekaniska.se/">
+<meta property="og:site_name" content="Danderyds Mekaniska">
+<meta property="og:image" content="https://danderydsmekaniska.se/img/panel.jpg">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:height" content="523">
+<meta property="og:image:alt" content="Instrumentpanel och reglagekonsol i metall, måttbyggd till en privatbåt.">
+<link rel="canonical" href="https://danderydsmekaniska.se/">
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Danderyds Mekaniska AB",
+ "url":"https://danderydsmekaniska.se/","telephone":"+46707773230",
+ "email":"info@danderydsmekaniska.se","foundingDate":"1989","taxID":"556355-1224",
+ "address":{"@type":"PostalAddress","streetAddress":"Bäcktorpsvägen 48","postalCode":"132 48",
+  "addressLocality":"Saltsjö-Boo","addressRegion":"Stockholms län","addressCountry":"SE"}}
+</script>
+
+<link rel="preload" href="fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/geist-mono.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{
+  font-family:'Geist'; font-style:normal; font-weight:100 900;
+  font-display:swap; src:url('fonts/geist.woff2') format('woff2');
+}
+@font-face{
+  font-family:'Geist Mono'; font-style:normal; font-weight:100 900;
+  font-display:swap; src:url('fonts/geist-mono.woff2') format('woff2');
+}
+b.ri{
+  font-family:var(--mono); font-size:.8125rem; font-weight:600;
+  letter-spacing:.04em; text-transform:uppercase; color:var(--accent);
+  margin-right:.45rem;
+}
+.ef{list-style:none; margin:1.75rem 0 0; padding:0; display:grid; gap:1px;
+  background:var(--rule); border:1px solid var(--rule);
+  grid-template-columns:repeat(auto-fit,minmax(11rem,1fr))}
+.ef li{background:var(--paper); padding:1rem 1.15rem; min-width:0}
+.ef-n{display:block; font-family:var(--mono); font-size:1rem; font-weight:600;
+  letter-spacing:-.01em; color:var(--ink)}
+.ef-l{display:block; font-size:.8125rem; color:var(--muted); margin-top:.3rem;
+  line-height:1.45}
+@media print{ .ef{break-inside:avoid} }
+</style>
+<style>
+:root{
+  --paper:#faf8f5; --ink:#1a1a18; --muted:#5e594f; --rule:#ded7cb;
+  --accent:#a8431c; --panel:#f2eee7; --muted2:#46423b; --grid:rgba(26,26,24,.035);
+  --mono:'Geist Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+  --measure:34rem;
+  color-scheme:light dark;
+  --sans:'Geist',ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --paper:#141412; --ink:#eae5dd; --muted:#a39c90; --rule:#332f29;
+    --accent:#e2794a; --panel:#1c1b18; --muted2:#c2bcb2; --grid:rgba(234,229,221,.04);
+  }
+  .tb{border-color:#6b655b}
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+main{display:block}
+body{
+  margin:0; background:#faf8f5; background:var(--paper); color:#1a1a18; color:var(--ink);
+  font-family:"Segoe UI",Arial,sans-serif; font-family:var(--sans); font-size:1.0625rem; line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{width:100%; max-width:60rem; margin:0 auto; padding-left:1.5rem; padding-right:1.5rem}
+@media (min-width:48em){ .wrap{padding-left:2.5rem; padding-right:2.5rem} }
+h1,h2,h3{line-height:1.15; text-wrap:balance; margin:0; overflow-wrap:break-word}
+p{margin:0 0 1.1em; max-width:min(var(--measure),100%)}
+p:last-child{margin-bottom:0}
+a{color:inherit}
+a:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radius:2px}
+.masthead{padding-block:clamp(3rem,10vw,6rem) clamp(2.5rem,7vw,4rem)}
+.wordmark{
+  font-size:clamp(1.9rem,7.5vw,4.25rem); font-weight:700;
+  letter-spacing:-.025em; margin-bottom:.35em;
+}
+.wordmark .light{
+  font-weight:300; color:var(--muted); display:block;
+  font-size:.6em; letter-spacing:-.005em; margin-top:.25em;
+}
+.lede{
+  font-size:clamp(1.05rem,2.4vw,1.375rem); color:var(--muted);
+  max-width:min(32rem,100%); margin:0;
+}
+.hail{
+  display:flex; flex-wrap:wrap; align-items:center; gap:.25rem 0;
+  font-family:var(--mono); margin:1.5rem 0 0;
+}
+.hail a{
+  display:inline-flex; align-items:center; min-height:44px; margin-right:1.5rem; color:var(--ink);
+  text-decoration:underline; text-decoration-color:var(--rule);
+  text-decoration-thickness:1px; text-underline-offset:4px;
+}
+.hail a:hover, .hail a:focus-visible{text-decoration-color:var(--accent)}
+.hail-tel{white-space:nowrap; font-size:clamp(1.25rem,3.6vw,1.5rem); font-weight:700; letter-spacing:-.02em}
+.hail-mail{font-size:clamp(.875rem,2.4vw,1rem)}
+.hail-note{
+  font-family:var(--sans); font-size:.9375rem; color:var(--muted);
+  margin:.65rem 0 0; max-width:min(32rem,100%);
+}
+.sheet{
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size:8mm 8mm;
+  background-position:center top;
+}
+.nb{white-space:nowrap}
+.stamp{
+  display:inline-block; font-family:var(--mono); font-size:.6875rem;
+  letter-spacing:.1em; color:var(--muted2); border:1px solid var(--rule);
+  padding:.35rem .6rem; margin-bottom:1.5rem; white-space:nowrap;
+}
+.stamp b{color:var(--accent); font-weight:700}
+.tb{border:1px solid var(--ink); margin-top:.5rem; background:var(--paper)}
+.tbgrid{display:grid; grid-template-columns:1fr; gap:1px; background:var(--rule)}
+.cell{padding:.85rem 1.1rem; min-width:0; background:var(--paper)}
+@media (min-width:40em){
+  .tbgrid{grid-template-columns:1fr 1fr}
+  .cell{padding:1.15rem 1.35rem}
+  .cell:nth-child(3), .cell.wide{grid-column:1/-1}
+}
+@media (min-width:58em){
+  .tbgrid{grid-template-columns:repeat(3,1fr)}
+  .cell:nth-child(3){grid-column:auto}
+}
+.k{display:block; font-family:var(--mono); font-size:.625rem; letter-spacing:.13em;
+   text-transform:uppercase; color:var(--muted); margin-bottom:.3rem}
+.cell a{display:inline-block; padding:.6rem 0; margin:-.6rem 0;
+        font-family:var(--mono); font-weight:600; text-decoration:none;
+        font-size:clamp(.875rem,1.35vw,1rem); letter-spacing:-.02em;
+        overflow-wrap:break-word; hyphens:none}
+.cell a:hover{color:var(--accent)}
+.cell a[href^="tel"]{white-space:nowrap}
+.cell .v{font-family:var(--mono); font-size:.9375rem; color:var(--muted2); line-height:1.7}
+.plate{margin:0 auto; padding-block:0}
+.plate img{
+  display:block; width:100%; height:auto; height:clamp(220px,28vw,380px);
+  object-fit:cover; background:var(--panel);
+}
+.plate.lead img{height:auto; aspect-ratio:1000/523}
+.plate{padding-bottom:1.5rem}
+.plate .caption{border-top:0}
+.split{display:grid; gap:1.75rem; align-items:start}
+@media (min-width:46em){ .split{grid-template-columns:1fr .72fr; gap:3rem} }
+.split.flip > figure{order:-1}
+@media (min-width:46em){ .split.flip{grid-template-columns:.72fr 1fr} }
+.split figure{margin:0}
+.split .band img{aspect-ratio:4/3; max-height:none; object-position:center 55%}
+.split img{
+  width:100%; height:auto; display:block; max-height:26rem; object-fit:cover;
+  border:1px solid var(--rule); background:var(--panel);
+}
+@media (max-width:45.99em){ .split img{max-height:19rem} }
+.jobs{list-style:none;margin:1.5rem 0 0;padding:0}
+.jobs li{padding:1rem 0; border-top:1px solid var(--rule); font-size:.9375rem;
+  color:var(--muted2); break-inside:avoid}
+.jobs li:last-child{border-bottom:1px solid var(--rule)}
+@media (min-width:52em){
+  .jobs{display:grid; grid-template-columns:1fr 1fr; column-gap:3rem}
+  .jobs li:last-child{border-bottom:0}
+  .jobs li:nth-last-child(-n+2){border-bottom:1px solid var(--rule)}
+}
+.caption{font-size:.875rem; color:var(--muted2); margin-top:0;
+  max-width:min(46rem,100%);
+  font-family:var(--mono); line-height:1.55; padding-top:.75rem;
+  border-top:1px solid var(--rule)}
+section{padding-block:clamp(2.5rem,6vw,4rem); border-top:1px solid var(--rule)}
+.label{
+  font-family:var(--mono);
+  font-size:.75rem; font-weight:600; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--accent); margin:0 0 1.25rem;
+}
+h2{font-size:clamp(1.375rem,3.6vw,2rem); letter-spacing:-.015em; margin-bottom:1rem;
+   max-width:min(30rem,100%)}
+.services{
+  list-style:none; padding:0; margin:0; display:grid; gap:1px;
+  background:var(--rule); border:1px solid var(--rule);
+}
+@media (min-width:44em){ .services{grid-template-columns:1fr 1fr} }
+.services li{background:var(--paper); padding:2rem; min-width:0}
+.services h3{font-size:1.0625rem; letter-spacing:.01em; margin-bottom:.4rem}
+.services p{color:var(--muted); font-size:.9375rem; margin:0; max-width:min(32rem,100%)}
+.services li:first-child{grid-column:1/-1; background:var(--panel)}
+.services li:first-child h3{font-size:1.1875rem}
+.steps{list-style:none; margin:1.5rem 0 0; padding:0; counter-reset:step}
+.steps li{
+  display:grid; grid-template-columns:1.75rem 1fr; gap:0 .6rem;
+  padding:1rem 0; border-top:1px solid var(--rule);
+}
+.steps li::before{
+  counter-increment:step; content:"0" counter(step);
+  font-family:var(--mono); font-size:.75rem; letter-spacing:.08em;
+  color:var(--accent); padding-top:.25rem;
+}
+.steps h3{grid-column:2; font-size:1rem; letter-spacing:.01em; margin:0 0 .2rem}
+.steps p{grid-column:2; margin:0; color:var(--muted); font-size:.9375rem; max-width:none}
+.pull{
+  border-left:2px solid var(--accent); padding:.15rem 0 .15rem 1.25rem;
+  margin:1.75rem 0 0;
+}
+.pull p{max-width:min(30rem,100%)}
+.contact{border-top:1px solid var(--rule); padding-block:clamp(2.5rem,6vw,4rem) 3rem}
+.big-link{
+  display:inline-block; font-size:clamp(1.0625rem,3vw,1.5rem); font-weight:600;
+  text-decoration:none; letter-spacing:-.01em; overflow-wrap:anywhere;
+}
+.big-link:hover{color:var(--accent)}
+address{font-style:normal; color:var(--muted2); line-height:1.9; font-family:var(--mono);
+  font-size:.9375rem}
+.maplink{color:var(--accent); text-underline-offset:3px}
+.cell a.maplink{font-size:.875rem; font-weight:400}
+.invite{font-size:1.0625rem; max-width:min(26rem,100%); margin-top:2rem}
+.meta{font-family:var(--mono); font-size:.75rem; color:var(--muted); margin-top:1rem}
+@media print{
+  :root{
+    --paper:#faf8f5; --ink:#1a1a18; --muted:#5e594f; --muted2:#46423b;
+    --rule:#ded7cb; --accent:#a8431c; --panel:#f2eee7;
+    --grid:rgba(26,26,24,.035);
+  }
+  @page{ size:A4; margin:0; }
+  html,body{background:var(--paper) !important;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact}
+  .wrap{max-width:none; padding-inline:15mm}
+  .masthead{padding-block:18mm 10mm}
+  .hail, .hail-note{break-inside:avoid}
+  .hail a{border-bottom:0}
+  .contact{padding-block:10mm 18mm}
+  figure, .services li, .tb, .pull{break-inside:avoid}
+  .label{break-after:avoid}
+  h2,h3{break-after:avoid}
+  .split{break-inside:avoid}
+  .plate img{height:auto; max-height:78mm; object-fit:cover}
+  .split img{max-height:80mm}
+  section{padding-block:9mm; break-inside:auto}
+  a{text-decoration:none}
+  .maplink::after{content:" (karta)"; font-size:.75em}
+  .cell a{font-size:.6875rem; letter-spacing:-.03em}
+}
+</style>
+</head>
+
+<body>
+
+<header class="masthead wrap sheet">
+  <span class="stamp"><b>DM</b> / SALTSJÖ-BOO / 1989</span>
+  <h1 class="wordmark">Danderyds Mekaniska <span class="light">Stålverkstad i <span class="nb">Saltsjö-Boo</span> sedan 1989</span></h1>
+  <p class="lede">Vi tillverkar, svetsar och reparerar i stål, rostfritt och aluminium. Från enstaka detaljer till återkommande serier.</p>
+  <p class="hail">
+    <a class="hail-tel" href="tel:+46707773230">0707-773 230</a>
+    <a class="hail-mail" href="mailto:info@danderydsmekaniska.se">info@danderydsmekaniska.se</a>
+  </p>
+  <p class="hail-note">Ring, eller mejla en ritning eller en skiss. Du får ett pris tillbaka.</p>
+  <ul class="ef">
+    <li><span class="ef-n">Svetslicens</span><span class="ef-l">och materialintyg på stålet</span></li>
+    <li><span class="ef-n">Kontrollerad 2025</span><span class="ef-l">dokumentationen granskad av oberoende part</span></li>
+  </ul>
+</header>
+
+<figure class="plate lead wrap">
+  <img src="img/panel.jpg" width="1000" height="523"
+       alt="Instrumentpanel och reglagekonsol i metall, måttbyggd till en privatbåt.">
+  <figcaption class="caption">Instrumentpanel till en privatbåt. Ingen hylla att köpa den från.</figcaption>
+</figure>
+
+<main>
+
+<section class="wrap">
+  <h2 class="label">Verkstaden</h2>
+  <p>Verkstaden ligger på Bäcktorpsvägen 48 i Saltsjö-Boo, 250 kvadratmeter. Kalle Pettersson har över 40 år i yrket och har drivit Danderyds Mekaniska sedan 1989.</p>
+  <p>Vi jobbar åt industriföretag som behöver detaljer tillverkade efter ritning, åt byggare och arkitekter som vill ha smide som passar huset, och åt privatpersoner som behöver något som inte går att köpa färdigt.</p>
+</section>
+
+<section class="wrap">
+  <h2 class="label">Vad vi gör</h2>
+  <ul class="services">
+    <li>
+      <h3>CNC-bearbetning</h3>
+      <p>Svarvning och fräsning efter ritning eller CAD-underlag, i stål, rostfritt (bland annat 1.4301 och 1.4404) och aluminium. Enstaka detaljer, prototyper och återkommande serier.</p>
+    </li>
+    <li>
+      <h3>Svets och stålkonstruktion</h3>
+      <p>TIG och MIG. Bärande stålkonstruktioner med svetslicens och materialintyg. Tredjepartskontroll när beställaren kräver det.</p>
+    </li>
+    <li>
+      <h3>Plåtbearbetning</h3>
+      <p>Kantpressning, plasmaskärning och klippning i stål, rostfritt och aluminium.</p>
+    </li>
+    <li>
+      <h3>Räcken, trappor och smide</h3>
+      <p>Räcken, trappor, grindar och beslag. Vi arbetar efter arkitektens ritning eller tar fram ett förslag själva.</p>
+    </li>
+    <li>
+      <h3>Kundanpassad tillverkning</h3>
+      <p>Sådant som inte går att köpa färdigt: fixturer, lyftverktyg, vagnar, ställ och beslag.</p>
+    </li>
+  </ul>
+</section>
+
+<section class="wrap">
+  <h2 class="label">Så jobbar vi</h2>
+  <div class="split flip">
+    <div>
+      <ol class="steps">
+        <li>
+          <h3>Förfrågan</h3>
+          <p>Skicka en ritning, en skiss eller bara ett foto och några mått. Ska något passa mot befintliga mått kommer vi ut och mäter själva.</p>
+        </li>
+        <li>
+          <h3>Offert</h3>
+          <p>Du får pris, material, ytbehandling och leveranstid.</p>
+        </li>
+        <li>
+          <h3>Tillverkning</h3>
+          <p>Skärande bearbetning, svetsning och plåtarbete görs i verkstaden i Saltsjö-Boo.</p>
+        </li>
+        <li>
+          <h3>Leverans</h3>
+          <p>Hämtas i verkstaden, eller monteras på plats.</p>
+        </li>
+      </ol>
+      <div class="pull">
+        <p>En del gör vi inte själva. Vattenskärning, galvning och lackering lämnar vi till dem som är vassare på det än vi är. Vi håller ihop jobbet, du har en kontakt.</p>
+      </div>
+    </div>
+    <figure>
+      <img src="img/stege.jpg" width="950" height="991" loading="lazy" decoding="async"
+           alt="Polerad rostfri poolstege monterad i ett trädäck vid en pool.">
+      <figcaption class="caption">Poolstege i polerat rostfritt.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2 class="label">Kunder och uppdrag</h2>
+  <p>Vi tillverkar åt Mycronic och Scanflex Medical, och har levererat säkerhetsdetaljer till Ersta diakonis fastigheter. Smidet gör vi bland annat åt arkitektkontoret Arrhov Frick och byggföretaget Bygg &amp; Inredningstjänst, och åt privatpersoner i Stockholmsområdet.</p>
+  <div>
+    <ul class="jobs">
+      <li>Spiraltrappa och beklädnad till öppen spis i ett sommarhus i skärgården, efter arkitektens ritning.</li>
+      <li>Pinnräcken till två balkonger på en vindsvåning vid Karlaplan, matchade mot husets befintliga räcken.</li>
+      <li>Skärmtak i svetsat stål och glas, två sektioner om drygt 250 kilo, dimensionerat för snölast.</li>
+      <li>Fixturer, lyftverktyg och vagnar till industriproduktion.</li>
+      <li>Poolstege i polerat rostfritt, monterad i trädäck.</li>
+      <li>Instrumentpanel och reglagekonsol till en privatbåt.</li>
+      <li>Specialtillverkat golvgaller i rostfritt.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2 class="label">Kvalitet</h2>
+  <div class="split">
+    <div>
+      <p><b class="ri">Svetslicens</b> finns, och materialintyg på stålet. Vid bärande konstruktioner granskas arbetet av tredje part när beställaren kräver det. Senast 2025 godkändes dokumentationen av en oberoende kontrollant.</p>
+      <p><b class="ri">Kontroll</b> Vi mäter innan vi kapar. Passar det inte, gör vi om det.</p>
+    </div>
+    <figure class="band">
+      <img src="img/stag.jpg" width="718" height="1116" loading="lazy" decoding="async"
+           alt="Rad av vitlackerade diagonalstag med svetsade, gängade ändtappar.">
+      <figcaption class="caption">Åtta diagonalstag, omgjorda. Kunden granskade och svarade: ”Bättre!”</figcaption>
+    </figure>
+  </div>
+</section>
+
+</main>
+
+<footer class="contact wrap sheet">
+  <h2 class="label">Kontakta oss</h2>
+  <div class="tb">
+    <div class="tbgrid">
+      <div class="cell"><span class="k">Telefon</span>
+        <a href="tel:+46707773230">0707-773 230</a></div>
+      <div class="cell"><span class="k">E-post</span>
+        <a href="mailto:info@danderydsmekaniska.se">info@danderydsmekaniska.se</a></div>
+      <div class="cell"><span class="k">Besöksadress</span>
+        <span class="v">Bäcktorpsvägen 48<br>132 48 Saltsjö-Boo<br>
+        <a class="maplink"
+           href="https://www.google.com/maps/search/?api=1&amp;query=B%C3%A4cktorpsv%C3%A4gen+48%2C+132+48+Saltsj%C3%B6-Boo"
+           rel="noopener">Hitta hit</a></span></div>
+      <div class="cell wide"><span class="k">Välkommen in</span>
+        <span class="v">Kom gärna förbi och kika in på verkstaden, så tittar vi på ditt projekt tillsammans.</span></div>
+    </div>
+  </div>
+  <p class="meta">Danderyds Mekaniska AB &middot; org.nr <span class="nb">556355-1224</span></p>
+</footer>
+
+</body>
+</html>
